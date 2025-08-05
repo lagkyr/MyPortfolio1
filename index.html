@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://kit.fontawesome.com/088a0ef9b4.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+  
+
+  <div id="header">
+    <div class="container">
+
+      <a href="index.html"><img src="images/PNG/uk1.png" alt="imgeng" class="imgen1"></a>
+      <a href="index-gr.html"><img src="images/PNG/Greece_Flag_PNG.png" alt="imggr" class="imggr1"></a>
+      <nav>
+        <img src="images/logo1.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#portfolio">My work</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+        </ul>
+
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          
+      </nav>
+      <div class="header-text">
+        <p><span class="span1">Color</span><span class="span2">  Pencil</span><span class="span3">  Artist</span></p>
+        <h1>Hi, I'm Kyriakos From Greece!</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+          <div class="about-col-1">
+            <img src="images/designer1.jpg" alt="myphoto" >
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me!</h1>
+           
+            <p class="Paragraph1 fs-4 text-justify lh-base">I was born and raised on the Homeric island of <a
+              href="https://el.wikipedia.org/wiki/%CE%99%CE%B8%CE%AC%CE%BA%CE%B7" target="_blank"><ins><strong> ITHAKA </strong></ins> </a> Greece-Ulysses Kingdom. From a very young age, I loved capturing beautiful and special scenes with my pencils on paper. One of the people who inspired my love for painting was Mr.Errikos, or Errikos the Barlas- a wonderful grandfather and painter known for many oil paintings, mostly landscapes. However, due to age and obligations, I moved away from painting for many years. In recent years, though, I found my inspiration again-this time through the wife of a good friend and colleague, the amazing painter Ms. Ria Axelis, who introduced me to my wonderful teacher, <a href="https://mariavillioti.com" target="_blank"><ins><strong>Ms. Villioti Maria</strong></ins></a> . Under her guidance, I developed a deep love for realism and working with color pencils. Although I am not a professional painter, painting is one of my favorite hobbies and, more importantly my therapy-as I often tell my friends. <br>I have participated in a group exhibition organized by my teacher, Ms Maria Villioti.<br>I took also a part in colored pencil competition held in America in 2021 In Ann Cullbergs ColoR Pencil Magazine, I won second place with my work <a href="images/WinUSA.jpg"><ins><strong>"The Abandonment"</strong></ins></a>, which depicts an old house from Ithaka.  
+            </p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- My Portfolio -->
+   <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Old_House.jpg" alt="">
+            <div class="layer">
+              <h3>Abandon house.</h3>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Cat1.jpg" alt="">
+            <div class="layer">
+              <h3>Cat portrait.</h3>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Indian.jpg" alt="">
+            <div class="layer">
+              <h3>Indian chief.</h3>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/locker2.jpg" alt="">
+            <div class="layer">
+              <h3>Old rusty padlock.</h3>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Old_Man.jpg" alt="">
+            <div class="layer">
+              <h3>Old man.</h3>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Sandy.jpg" alt="">
+            <div class="layer">
+              <h3>Mss Sandy.</h3>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/Paradise.jpg" alt="">
+            <div class="layer">
+              <h3>Paradise Bird.</h3>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/Window.jpg" alt="">
+            <div class="layer">
+              <h3>Old Window.</h3>
+            </div>
+          </div>
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+      </div>
+   </div>
+
+   <!-- Contact information -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+
+          <div class="contact_left">
+            <h1 class="sub-title">Contact </h1>
+            <p><i class="fa-sharp-duotone fa-regular fa-paper-plane"></i> lagkyr63@outlook.com.gr</p>
+            <p><i class="fa-solid fa-phone-volume"></i> +30 6972427749</p>
+
+            <div class="social-icons">
+              <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            
+          </div>
+          <div class="contact_right">
+
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name." required>
+                <input type="email" name="Email" placeholder="Your Email address." required>
+                <input type="date" name="Date" required>
+                <textarea name="Message" rows="6" placeholder="Your Message here.">
+                </textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+
+              <span id="msg"></span>
+
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright <i class="fa-sharp fa-regular fa-copyright"></i> Kyriakos 2025.</p>
+      </div>
+    </div>
+  
+  <script src="script.js"></script>
+   </body>          
+</html>
